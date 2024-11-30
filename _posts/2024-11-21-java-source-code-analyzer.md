@@ -2,6 +2,7 @@
 title: "AI for checking vulnerabilities in Java Source Code "
 tags:
   - Java
+  - AI
 ---
 
 Java source vulnerability analyzer.
