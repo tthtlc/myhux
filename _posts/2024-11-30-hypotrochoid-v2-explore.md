@@ -1,7 +1,7 @@
 ---
 title: "Hypotrochoid Curve with Additional Scrollbars"
 tags:
-  - AI, chatbot, Javascript
+  - graphics
 ---
 
 Hypotrochoid Curve with Additional Scrollbars

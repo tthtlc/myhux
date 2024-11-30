@@ -1,7 +1,7 @@
 ---
-title: "AI generated javascript: Chasing diagram on squares around squares"
+title: "Chasing diagram on squares around squares"
 tags:
-  - AI, chatbot, Mathematics, graphics
+  - graphics
 ---
 
 Drawing squares around squares, while having chasing diagram inside each square.

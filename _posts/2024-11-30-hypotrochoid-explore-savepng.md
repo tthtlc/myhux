@@ -1,7 +1,7 @@
 ---
 title: "Hypotrochoid Curves with Scrollbars, Labels, and Color Picker"
 tags:
-  - AI, chatbot, Javascript
+  - graphics
 ---
 
 Hypotrochoid Curves with Scrollbars, Labels, and Color Picker

@@ -1,7 +1,7 @@
 ---
-title: "AI generated javascript: Chasing lines on rotating hexagon"
+title: "Chasing lines on rotating hexagon"
 tags:
-  - AI, chatbot, Mathematics, graphics
+  - graphics
 ---
 
 Chasing lines on rotating hexagon.

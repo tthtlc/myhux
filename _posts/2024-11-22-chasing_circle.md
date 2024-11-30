@@ -1,7 +1,7 @@
 ---
-title: "AI generated javascript: Chasing diagram on a circle"
+title: "Chasing diagram on a circle"
 tags:
-  - AI, chatbot, Mathematics, graphics
+  - graphics
 ---
 
 This is just drawing two circles and joing lines from one circle to another, and input parameter is just adjusting the index offset from 0 to connect.

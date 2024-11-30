@@ -1,7 +1,7 @@
 ---
-title: "AI generated javascript: Drawing chasing triangle"
+title: "Drawing chasing triangle"
 tags:
-  - AI, chatbot, Mathematics, graphics
+  - graphics
 ---
 
 Drawing chasing triangle.

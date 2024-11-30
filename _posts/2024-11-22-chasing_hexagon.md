@@ -1,7 +1,7 @@
 ---
-title: "AI generated javascript: Chasing on hexagon"
+title: "Chasing on hexagon"
 tags:
-  - AI, chatbot, Mathematics, graphics
+  - graphics
 ---
 
 Chasing diagram on hexagon.

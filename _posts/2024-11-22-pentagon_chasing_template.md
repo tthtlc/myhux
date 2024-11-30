@@ -1,7 +1,7 @@
 ---
-title: "AI generated javascript: Pentagon with Colored Line"
+title: "Pentagon with Colored Line"
 tags:
-  - AI, chatbot, Mathematics, graphics
+  - graphics
 ---
 
 How to draw pentagon with colored lines.   This method of drawing lines is called chasing diagram.   The two adjacent edge of the pentagon are specified.

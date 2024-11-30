@@ -1,7 +1,7 @@
 ---
-title: "AI generated javascript: Parametric Equation Visualization with Rotation"
+title: "Parametric Equation Visualization with Rotation"
 tags:
-  - AI, chatbot, Javascript
+  - graphics
 ---
 
 AI generated javascript for prametric equation visualization.

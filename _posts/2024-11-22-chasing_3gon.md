@@ -1,7 +1,7 @@
 ---
-title: "AI generated javascript: Chasing diagram on triangle"
+title: "Chasing diagram on triangle"
 tags:
-  - AI, chatbot, Mathematics, graphics
+  - graphics
 ---
 
 How to draw triangle.  This method of drawing lines is called chasing diagram.   The two adjacent edge of the pentagon are specified.

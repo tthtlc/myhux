@@ -1,7 +1,7 @@
 ---
 title: "AI for checking vulnerabilities in Java Source Code "
 tags:
-  - AI, chatbot, Java
+  - Java
 ---
 
 Java source vulnerability analyzer.

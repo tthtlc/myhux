@@ -1,6 +1,6 @@
 # Site settings
 title: ArtDeveloper
-SEOTitle: ArtDeveloper
+##SEOTitle: ArtDeveloper
 header-img: img/dsc.jpg
 email: htmldeveloper@gmail.com
 description: "This is ArtDeveloper: Making Digital Arts through Mathematics"
