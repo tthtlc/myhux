@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing lines on rotating hexagon"
 tags:
   - graphics

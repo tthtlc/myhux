@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing diagram on hexagon around hexagon animated with color."
 tags:
   - graphics

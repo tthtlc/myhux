@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Drawing chasing triangle"
 tags:
   - graphics

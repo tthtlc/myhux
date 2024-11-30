@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing lines and running color"
 tags:
   - graphics

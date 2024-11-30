@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Variable Petal Lines Animation"
 tags:
   - graphics

@@ -1,5 +1,6 @@
 ---
 layout: post
+layout: post
 title: "Triangle around triangle with chasing diagram"
 tags:
   - graphics

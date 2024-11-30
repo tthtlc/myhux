@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing diagram on a circle"
 tags:
   - graphics

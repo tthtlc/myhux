@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Epicycloid Curves with Petal with Scrollbars, Labels, and Color Picker"
 tags:
   - graphics

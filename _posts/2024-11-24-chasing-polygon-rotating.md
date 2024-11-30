@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Generalized chasing rotating polygon"
 tags:
   - graphics

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing diagram inside a square"
 tags:
   - graphics

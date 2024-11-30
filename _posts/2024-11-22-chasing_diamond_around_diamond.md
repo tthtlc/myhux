@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing diagram on diamond around a diamond"
 tags:
   - graphics

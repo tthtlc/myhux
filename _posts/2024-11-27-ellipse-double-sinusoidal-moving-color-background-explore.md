@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Animated Sinusoidal Wave on Ellipse"
 tags:
   - graphics

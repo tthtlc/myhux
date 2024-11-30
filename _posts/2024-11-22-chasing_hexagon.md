@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing on hexagon"
 tags:
   - graphics

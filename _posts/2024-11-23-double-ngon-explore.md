@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Drawing double polygon"
 tags:
   - graphics

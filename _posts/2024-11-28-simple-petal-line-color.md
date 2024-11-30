@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Dynamic Petals with Red-Blue-Yellow Gradient"
 tags:
   - graphics

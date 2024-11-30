@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Polygon Midpoint Generator"
 tags:
   - graphics

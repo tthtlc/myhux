@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing diagram on rotating hexagon"
 tags:
   - graphics

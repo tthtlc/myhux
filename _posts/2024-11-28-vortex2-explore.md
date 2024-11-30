@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Vortex Parametric Equation Visualization"
 tags:
   - graphics

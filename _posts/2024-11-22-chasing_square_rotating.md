@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Chasing and rotating square"
 tags:
   - graphics

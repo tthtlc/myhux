@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Square with Colored Lines"
 tags:
   - graphics

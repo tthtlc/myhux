@@ -1,5 +1,6 @@
 ---
 layout: post
+layout: post
 title: "Hypotrochoid Curves with Scrollbars, Labels, and Color Picker"
 tags:
   - graphics

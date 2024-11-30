@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Parametric Equation Visualization with Rotation"
 tags:
   - graphics

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Polygon with Colored Lines"
 tags:
   - graphics

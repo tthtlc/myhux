@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Dynamic Petals"
 tags:
   - graphics

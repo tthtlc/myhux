@@ -1,5 +1,6 @@
 ---
 layout: post
+layout: post
 title: "Hypotrochoid Curve with Additional Scrollbars"
 tags:
   - graphics

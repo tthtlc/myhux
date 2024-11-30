@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pentagon with Colored Line"
 tags:
   - graphics
