@@ -1,6 +1,5 @@
 ---
 layout: post
-layout: post
 title: "Hypotrochoid Curve with Additional Scrollbars"
 tags:
   - graphics
@@ -44,8 +43,8 @@ Hypotrochoid Curve with Additional Scrollbars
         </div>
         <div class="control-group">
             <label for="r">r (Inner radius):</label>
-            <input type="range" id="r" min="10" max="150" value="40">
-            <span id="r-value" class="value-label">40</span>
+            <input type="range" id="r" min="10" max="150" value="58">
+            <span id="r-value" class="value-label">58</span>
         </div>
         <div class="control-group">
             <label for="d">d (Distance):</label>
@@ -53,19 +52,14 @@ Hypotrochoid Curve with Additional Scrollbars
             <span id="d-value" class="value-label">150</span>
         </div>
         <div class="control-group">
-            <label for="R1">R1 (Modifier):</label>
-            <input type="range" id="R1" min="0" max="2" step="0.01" value="1">
-            <span id="R1-value" class="value-label">1.00</span>
-        </div>
-        <div class="control-group">
             <label for="f1">f1 (Frequency 1):</label>
-            <input type="range" id="f1" min="1" max="10" value="1">
+            <input type="range" id="f1" min="1" max="30" value="1">
             <span id="f1-value" class="value-label">1</span>
         </div>
         <div class="control-group">
             <label for="f2">f2 (Frequency 2):</label>
-            <input type="range" id="f2" min="1" max="10" value="1">
-            <span id="f2-value" class="value-label">1</span>
+            <input type="range" id="f2" min="1" max="30" value="8">
+            <span id="f2-value" class="value-label">8</span>
         </div>
         <div class="control-group">
             <label for="color">Select Color:</label>
@@ -99,8 +93,8 @@ Hypotrochoid Curve with Additional Scrollbars
 
         const period = (2 * Math.PI * r) / gcd(R, r);
         for (let t = 0; t <= period; t += 0.01) {
-            const x = centerX + (R - r) * Math.cos(t) * (1 + Math.cos(3*t)) + d * Math.cos(((R - r) / r) * t);
-            const y = centerY + (R - r) * Math.sin(t) * (1 + Math.cos(3*t)) - d * Math.sin(((R - r) / r) * t);
+            const x = centerX + (R - r) * Math.cos(f1*t) * (1 + Math.cos(f2*t)) + d * Math.cos(((R - r) / r) * t);
+            const y = centerY + (R - r) * Math.sin(f1*t) * (1 + Math.cos(f2*t)) - d * Math.sin(((R - r) / r) * t);
             if (t === 0) ctx.moveTo(x, y);
             else ctx.lineTo(x, y);
         }
@@ -132,6 +126,26 @@ Hypotrochoid Curve with Additional Scrollbars
         drawHypotrochoid();
     });
 
+    document.getElementById('f1').addEventListener('input', function () {
+        f1 = parseInt(this.value);
+        document.getElementById('f1-value').innerText = this.value;
+        drawHypotrochoid();
+    });
+
+    document.getElementById('f2').addEventListener('input', function () {
+        f2 = parseInt(this.value);
+        document.getElementById('f2-value').innerText = this.value;
+        drawHypotrochoid();
+    });
+
     // Initial draw
     drawHypotrochoid();
 </script>
+
+```
+
+The curve is drawn using this formua:   R, r, d, f1 and f2 correspond to the values in the formula below:
+
+            x = (R - r) * Math.cos(f1*t) * (1 + Math.cos(f2*t)) + d * Math.cos(((R - r) / r) * t);
+            y = (R - r) * Math.sin(f1*t) * (1 + Math.cos(f2*t)) - d * Math.sin(((R - r) / r) * t);
+```
