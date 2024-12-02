@@ -74,6 +74,8 @@ Hypotrochoid Curve with Additional Scrollbars
     let r = 40;
     let d = 150;
     let selectedColor = '#0000ff';
+    let f1 = 1;
+    let f2 = 8;
 
     // Function to calculate the GCD
     function gcd(a, b) {
