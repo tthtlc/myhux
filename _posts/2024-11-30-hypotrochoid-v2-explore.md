@@ -8,7 +8,11 @@ tags:
 Hypotrochoid Curve with Additional Scrollbars
 
 <style>
+
         canvas {
+            width: 100%;
+            max-width: 600px; /* optional cap for desktops */
+            height: auto;
             border: 1px solid black;
         }
         .controls {
@@ -33,7 +37,7 @@ Hypotrochoid Curve with Additional Scrollbars
             font-weight: bold;
         }
 </style>
-<canvas id="canvas" width="800" height="800"></canvas>
+<canvas id="canvas"></canvas>
 
 <div class="controls">
         <div class="control-group">
